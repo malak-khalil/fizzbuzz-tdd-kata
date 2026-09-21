@@ -1,0 +1,12 @@
+# Python generated files
+__pycache__/
+*.pyc
+
+# Marimo generated files
+__marimo__/
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environment
+.venv/
