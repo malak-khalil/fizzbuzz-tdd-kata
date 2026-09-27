@@ -1,5 +1,5 @@
 [project]
-name = "fizzbuzz-tdd-kata"
+name = "fizzbuzz-tdd-kata-malak-khalil"
 version = "0.1.0"
 description = "A TDD kata: FizzBuzz, from notebook exploration to a tested, published package"
 readme = "README.md"
