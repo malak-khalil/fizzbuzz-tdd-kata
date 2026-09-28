@@ -4,9 +4,16 @@ __generated_with = "0.24.2"
 app = marimo.App(width="medium")
 
 with app.setup:
+    import sys
+
     import marimo as mo
     import matplotlib.pyplot as plt
     from collections import Counter
+
+    if sys.platform == "emscripten":
+        import micropip
+
+        await micropip.install("fizzbuzz-tdd-kata-malak-khalil")
 
     from fizzbuzz_tdd_kata import fizzbuzz
 
